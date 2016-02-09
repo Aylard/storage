@@ -1,0 +1,26 @@
+{
+  "name": "browser-storage",
+  "version": "1.0.0",
+  "description": "Simple API for all kinds of browser storage (cookies, session&local storage) module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "storage",
+    "local storage",
+    "cookies",
+    "session storage"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Aylard/storage.git"
+  },
+  "readme": "web storage (cookies, session&local storage) module \n simplifies handling them",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/Aylard/storage/issues"
+  },
+  "author": "Michal Nerc <michalnerc.pl>",
+  "license": "MIT"
+}
