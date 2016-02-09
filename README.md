@@ -51,6 +51,11 @@ cookies.remove("test");
 
 ```
 
-
+## API
+Returns null if localStorage, sessionStorage and cookies are disabled.
+If no argument specified, priorites are:
+1. localStorage
+2. sessionStorage
+3. cookies
 
 [http://michalnerc.pl](http://michalnerc.pl)
