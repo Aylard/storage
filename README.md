@@ -6,7 +6,9 @@ Unified API for Browser Storages (cookies, session, local)
 // Import Storage
 var BrowserStorage = require("browser-storage");
 
+// ======================
 // Get f.e. local storage
+// ======================
 var localStorage = BrowserStorage('localStorage');
 
 // Sets value
@@ -17,6 +19,36 @@ localStorage.get("test");
 
 // Remove value
 localStorage.remove("test");
+
+// ======================
+// Get sessionStorage
+// ======================
+var sessionStorage = BrowserStorage('sessionStorage');
+
+// Sets value
+sessionStorage.set("test", "abc");
+
+// Gets value
+sessionStorage.get("test");
+
+// Remove value
+sessionStorage.remove("test");
+
+
+// ======================
+// Get cookies
+// ======================
+var cookies = BrowserStorage('cookies');
+
+// Sets value
+cookies.set("test", "abc");
+
+// Gets value
+cookies.get("test");
+
+// Remove value
+cookies.remove("test");
+
 ```
 
 
