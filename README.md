@@ -52,10 +52,16 @@ cookies.remove("test");
 ```
 
 ## API
-Returns null if localStorage, sessionStorage and cookies are disabled. 
+Returns _null_ if localStorage, sessionStorage and cookies are disabled.
+
 If no argument specified, priorites are:
+
 1. localStorage
 2. sessionStorage
 3. cookies
+
+Always returns three functions:
+
+_get_(key) , _set_(key, value), _remove_(key)
 
 [http://michalnerc.pl](http://michalnerc.pl)
